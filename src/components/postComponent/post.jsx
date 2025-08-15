@@ -1,12 +1,12 @@
 
 import "./post.css";
 
-function Post() {
+function Post({ postTitle, postContent }) {
   return (
     <div className="post-card">
-      <h2 className="post-title">Post Title</h2>
+      <h2 className="post-title">{postTitle}</h2>
       <hr className="post-divider" />
-      <p className="post-body">This is the body of the post.</p>
+      <p className="post-body">{postContent}</p>
     </div>
   );
 }

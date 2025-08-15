@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <Header />
       <Container />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post postTitle="Post Title 1" postContent="Post Content 1" />
+      <Post postTitle="Post Title 2" postContent="Post Content 2" />
+      <Post postTitle="Post Title 3" postContent="Post Content 3" />
+      <Post postTitle="Post Title 4" postContent="Post Content 4" />
+      <Post postTitle="Post Title 5" postContent="Post Content 5" />
+      <Post postTitle="Post Title 6" postContent="Post Content 6" />
     </div>
   );
 }

@@ -1,7 +1,13 @@
 import "./buttons.css";
 
-function Buttons() {
-  return <button className="tag-button">Tag Button</button>;
+function Buttons({ postTitle, postContent , children }) {
+  return (
+    <button className="tag-button">
+      {postTitle}
+      <div className="post-content">{postContent}</div>
+      {children}
+    </button>
+  );
 }
 
 export default Buttons;
