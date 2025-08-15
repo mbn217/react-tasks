@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(to bottom, #006d6d, #008080);
+  color: #d61919;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 40px 0;
+  letter-spacing: 1px;
+  font-family: 'Arial', sans-serif;
+}
